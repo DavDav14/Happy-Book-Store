@@ -21,7 +21,6 @@ use App\Models\Category;
 Route::get('/', [BookController::class, 'index']);
 Route::get('/details/{detail}', [DetailController::class,'show']);
 Route::get('/categories/{category}', [CategoryController::class,'getCategory']);
-
 Route::get('/contact', function () {
     return view('contact', [
         'title' => 'Contact'

@@ -32,6 +32,10 @@ class DatabaseSeeder extends Seeder
             'category' => 'Computer'
         ]);
 
+        Category::create([
+            'category' => 'Education'
+        ]);
+
         // Buat Seeder table Books
         Book::create([
             'category_id' => '1',
@@ -59,7 +63,39 @@ class DatabaseSeeder extends Seeder
         ]);
         Book::create([
             'category_id' => '1',
-            'title' => 'One Kei, One Rongkosuu'
+            'title' => 'The God and 12 Kinds'
+        ]);
+        Book::create([
+            'category_id' => '2',
+            'title' => 'Misteri Leonardo da Vinci'
+        ]);
+        Book::create([
+            'category_id' => '1',
+            'title' => 'Fruit Basket'
+        ]);
+        Book::create([
+            'category_id' => '1',
+            'title' => 'Eros art Online'
+        ]);
+        Book::create([
+            'category_id' => '1',
+            'title' => 'Kisah para nabi-nabi'
+        ]);
+        Book::create([
+            'category_id' => '2',
+            'title' => 'Isaac Newton, sang jenius'
+        ]);
+        Book::create([
+            'category_id' => '1',
+            'title' => '89 Years'
+        ]);
+        Book::create([
+            'category_id' => '1',
+            'title' => 'Ruler of God'
+        ]);
+        Book::create([
+            'category_id' => '1',
+            'title' => 'DICE'
         ]);
 
         // Buat seeder untuk table Details
@@ -89,7 +125,7 @@ class DatabaseSeeder extends Seeder
             'book_id' => '4',
             'author' => 'Syon Al-bukhori',
             'publisher' => 'Medan Sejahtera',
-            'year' => '2017',
+            'year' => '2016',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor voluptatum quidem officiis adipisci minima. Nostrum magni, quibusdam itaque cumque, incidunt eligendi modi, aspernatur recusandae optio cupiditate consequatur eaque illum! Neque repudiandae obcaecati nobis expedita eius, vel praesentium? Ea omnis, deleniti nihil minima quidem, nostrum nisi nobis quisquam excepturi necessitatibus optio laudantium velit eaque dolores illum eos fugiat facilis? Nesciunt cupiditate voluptatibus debitis ad deleniti doloribus, dolor unde architecto suscipit nam eligendi saepe corrupti nisi! Sapiente architecto et veritatis odit similique rerum est nemo. Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
         ]);
         Detail::create([
@@ -111,6 +147,62 @@ class DatabaseSeeder extends Seeder
             'author' => 'Gur Guranto',
             'publisher' => 'Gatorox',
             'year' => '2013',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '8',
+            'author' => 'Herman Papilo',
+            'publisher' => 'Gramadia',
+            'year' => '2012',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam sapiente quaerat vitae autem eligendi magnam libero? Maxime a doloribus obcaecati, magnam totam ea quibusdam sequi! Tempore eveniet velit, facilis doloremque voluptatum at eius autem nobis cumque blanditiis accusantium tenetur soluta dolores perferendis doloribus consectetur quia molestiae voluptates, corporis sapiente incidunt. Quasi reprehenderit corrupti, veritatis, veniam fugiat atque, tenetur quam eius illo dolore quibusdam optio sint consequuntur voluptatum! Voluptate quas facere soluta odio ab itaque iure est fugit exercitationem delectus quibusdam, ipsa dolores optio, reprehenderit fuga pariatur quos! Perferendis illo officia laudantium nihil nostrum neque ipsa porro magnam sapiente blanditiis.'
+        ]);
+        Detail::create([
+            'book_id' => '9',
+            'author' => 'Karina Veronica',
+            'publisher' => 'Lexi Media',
+            'year' => '2018',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '10',
+            'author' => 'Ratna Puspitaningtyas',
+            'publisher' => 'Depok Pride',
+            'year' => '2008',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '11',
+            'author' => 'Cokay Pardaidai',
+            'publisher' => 'Emeli',
+            'year' => '2018',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '12',
+            'author' => 'Azelole',
+            'publisher' => 'Cawa Media',
+            'year' => '2017',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '13',
+            'author' => 'Odik Hansup',
+            'publisher' => 'Cawa Media',
+            'year' => '2010',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '14',
+            'author' => 'Farhan Alexander',
+            'publisher' => 'Depok Pride',
+            'year' => '2020',
+            'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
+        ]);
+        Detail::create([
+            'book_id' => '15',
+            'author' => 'Kyon',
+            'publisher' => 'Jyuushi',
+            'year' => '2016',
             'description' => 'Nemo sed quaerat unde eligendi odit culpa nostrum labore voluptate aperiam laudantium, in id dolorum assumenda odio possimus perferendis eius beatae delectus non quibusdam numquam magnam ducimus hic ad. Praesentium, iste soluta? Iure perferendis aut voluptatibus earum maiores deserunt perspiciatis voluptates exercitationem! Magni, incidunt veritatis excepturi blanditiis, autem nihil dolore tempore ratione numquam deserunt nesciunt officiis harum. Recusandae obcaecati ullam asperiores at, est deserunt esse doloremque nemo? Tempore alias, dolorem harum nihil rerum, ratione, sapiente at possimus deleniti sed architecto doloremque laborum. Hic error perferendis nam unde. Ad quam natus velit explicabo corporis impedit unde, itaque earum sunt animi eligendi quas quisquam dolores quaerat, esse aspernatur! Aperiam neque inventore ullam expedita facere architecto natus impedit velit.'
         ]);
     }

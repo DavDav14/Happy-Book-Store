@@ -13,17 +13,19 @@
       </tr>
     </thead>
     <tbody>
-        @foreach ($books as $book )
-            @if ($book === NULL)
+        @if ($books->isNotEmpty())
+            @foreach ($books as $book )
                 <tr>
-                    <td>No Data...</td>
+                    <td><a style="text-decoration: none; color:#020302;" href="/details/{{$book->Detail['id']}}">{{ $book['title'] }}</a></td>
+                    <td>{{ $book->Detail['author'] }}</td>
                 </tr>
-            @endif
+            @endforeach
+        @else
             <tr>
-                <td><a href="/details/{{$book->Detail['id']}}">{{ $book['title'] }}</a></td>
-                <td>{{ $book->Detail['author'] }}</td>
+                <td>No Data...</td>
+                <td></td>
             </tr>
-        @endforeach
+        @endif
     </tbody>
   </table>
 @endsection

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-dark">
-    <div class="container justify-content-center" >
-      <a class="navbar-brand" href="#">
+    <div class="container justify-content-center " >
+      <a class="navbar-brand titleText py-2" href="#">
         Home Book Store
       </a>
     </div>
@@ -24,6 +24,7 @@
               <li><a class="dropdown-item" href="/categories/1">Fiction</a></li>
               <li><a class="dropdown-item" href="/categories/2">Science</a></li>
               <li><a class="dropdown-item" href="/categories/3">Computer</a></li>
+              <li><a class="dropdown-item" href="/categories/4">Education</a></li>
             </ul>
           </li>
           <li class="nav-item">

@@ -15,4 +15,7 @@
     <li class="nav-item">
       <a class="nav-link" href="/categories/3">Computer</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/categories/4">Education</a>
+      </li>
   </ul>

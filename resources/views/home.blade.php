@@ -15,7 +15,7 @@
     <tbody>
         @foreach ($books as $book )
             <tr>
-                <td><a href="/details/{{$book->Detail['id']}}">{{ $book['title'] }}</a></td>
+                <td><a class="titleBook" href="/details/{{$book->Detail['id']}}">{{ $book['title'] }}</a></td>
                 <td>{{ $book->Detail['author'] }}</td>
             </tr>
         @endforeach
