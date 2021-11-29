@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    <h1>Book List</h1>
+    <h1>{{ $category }}</h1>
 @endsection
 
 @section('content')
@@ -14,6 +14,11 @@
     </thead>
     <tbody>
         @foreach ($books as $book )
+            @if ($book === NULL)
+                <tr>
+                    <td>No Data...</td>
+                </tr>
+            @endif
             <tr>
                 <td><a href="/details/{{$book->Detail['id']}}">{{ $book['title'] }}</a></td>
                 <td>{{ $book->Detail['author'] }}</td>

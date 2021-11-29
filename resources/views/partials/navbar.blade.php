@@ -21,9 +21,9 @@
               Category
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Fiction</a></li>
-              <li><a class="dropdown-item" href="#">Science</a></li>
-              <li><a class="dropdown-item" href="#">Computer</a></li>
+              <li><a class="dropdown-item" href="/categories/1">Fiction</a></li>
+              <li><a class="dropdown-item" href="/categories/2">Science</a></li>
+              <li><a class="dropdown-item" href="/categories/3">Computer</a></li>
             </ul>
           </li>
           <li class="nav-item">

@@ -7,12 +7,12 @@
   </nav>
   <ul class="nav flex-column mt-2">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Fiction</a>
+      <a class="nav-link active" href="/categories/1">Fiction</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Science</a>
+      <a class="nav-link" href="/categories/2">Science</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Computer</a>
+      <a class="nav-link" href="/categories/3">Computer</a>
     </li>
   </ul>

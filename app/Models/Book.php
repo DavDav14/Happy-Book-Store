@@ -9,11 +9,11 @@ class Book extends Model
 {
     use HasFactory;
 
-    public function details(){
+    public function detail(){
         return $this->hasOne(Detail::class);
     }
 
-    public function categories(){
+    public function category(){
         return $this->belongsTo(Category::class);
     }
 }

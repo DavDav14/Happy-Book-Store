@@ -9,7 +9,7 @@ class Detail extends Model
 {
     use HasFactory;
 
-    public function books(){
-        return $this->belongsTo(Book::class);
+    public function book(){
+        return $this->belongsTo(Book::class,'book_id');
     }
 }
