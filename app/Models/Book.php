@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Book extends Model
 {
     use HasFactory;
+
+    public function details(){
+        return $this->hasOne(Detail::class);
+    }
+
+    public function categories(){
+        return $this->belongsTo(Category::class);
+    }
 }
